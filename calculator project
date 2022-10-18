@@ -1,4 +1,4 @@
-\this file serves as a calculator. You can choose to add, subtract, multiply, or divide. 
+\\this file serves as a calculator. You can choose to add, subtract, multiply, or divide. 
 
 operationtype = input('''
 Please type in the math operation you would like to complete:
