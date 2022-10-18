@@ -1,0 +1,31 @@
+\this file serves as a calculator. You can choose to add, subtract, multiply, or divide. 
+
+operationtype = input('''
+Please type in the math operation you would like to complete:
+addition
+subtraction
+multiplication
+division
+''')
+
+firstinput = int(input('Enter your first number: '))
+secondinput = int(input('Enter your second number: '))
+
+if operationtype == 'addition':
+    print('{} + {} = '.format(firstinput, secondinput))
+    print(firstinput + secondinput)
+
+elif operationtype == 'subtraction':
+    print('{} - {} = '.format(firstinput, secondinput))
+    print(firstinput - secondinput)
+
+elif operationtype == 'multiplication':
+    print('{} * {} = '.format(firstinput, secondinput))
+    print(firstinput * secondinput)
+
+elif operationtype == 'division':
+    print('{} / {} = '.format(firstinput, secondinput))
+    print(firstinput / secondinput)
+
+else:
+    print('The operator that you have typed is not allowed. Please type either addition, subtraction, multiplication, or division')
